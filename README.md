@@ -6,6 +6,7 @@ The objective was to transform the raw dataset into a reliable, analysis-ready d
 This project was inspired by Alex The Analyst's SQL Data Cleaning tutorial, and I implemented the complete workflow while understanding the purpose behind each transformation.
 ________________________________________
 **Dataset**
+
 The dataset contains information about layoffs across companies worldwide, including:
 •	Company 
 •	Industry 
