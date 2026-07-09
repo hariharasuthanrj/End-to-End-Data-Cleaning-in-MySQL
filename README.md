@@ -1,7 +1,6 @@
 # End-to-End-Data-Cleaning-in-MySQL
-SQL data cleaning project using MySQL to prepare a global layoffs dataset for analysis. Demonstrates duplicate removal, data standardization, NULL handling, date conversion, and data transformation using real-world SQL techniques.
-
 **Project Overview**
+
 Real-world datasets are rarely clean. Missing values, duplicate records, inconsistent formatting, and incorrect data types can affect the accuracy of any analysis. This project focuses on cleaning a global layoffs dataset using SQL by following a structured data cleaning workflow before performing any exploratory data analysis.
 The objective was to transform the raw dataset into a reliable, analysis-ready dataset by identifying duplicate records, standardizing values, handling missing data, correcting formatting inconsistencies, and removing unnecessary records.
 This project was inspired by Alex The Analyst's SQL Data Cleaning tutorial, and I implemented the complete workflow while understanding the purpose behind each transformation.
