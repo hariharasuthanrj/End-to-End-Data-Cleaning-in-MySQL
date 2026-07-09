@@ -9,13 +9,21 @@ ________________________________________
 
 The dataset contains information about layoffs across companies worldwide, including:
 •	Company  
+
 •	Industry 
+
 •	Location 
+
 •	Total Employees Laid Off 
+
 •	Percentage Laid Off 
+
 •	Date 
+
 •	Funding Stage 
+
 •	Country 
+
 •	Funds Raised (Millions) 
 ________________________________________
 **Tools Used**
