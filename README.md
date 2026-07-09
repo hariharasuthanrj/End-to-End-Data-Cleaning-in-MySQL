@@ -19,6 +19,7 @@ The dataset contains information about layoffs across companies worldwide, inclu
 •	Funds Raised (Millions) 
 ________________________________________
 **Tools Used**
+
 •	MySQL 
 •	SQL 
 •	Window Functions 
@@ -55,6 +56,7 @@ Deleted rows where both total layoffs and layoff percentages were unavailable si
 Temporary helper columns created during cleaning were also removed to produce the final cleaned dataset.
 ________________________________________
 **SQL Concepts Demonstrated**
+
 •	Data Cleaning Workflow 
 •	Window Functions 
 •	ROW_NUMBER() 
@@ -71,6 +73,7 @@ ________________________________________
 •	Staging Tables 
 ________________________________________
 **Key Learning Outcomes**
+
 Through this project, I strengthened my understanding of how SQL is used for real-world data preparation before analysis. Instead of simply removing duplicates or correcting formatting, I learned the importance of preserving raw data, validating records before deletion, handling missing values thoughtfully, and creating consistent datasets that improve the reliability of downstream analytics.
 This project also improved my confidence in using window functions, joins, update operations, and data transformation techniques commonly used by data analysts in production environments.
 
