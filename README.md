@@ -8,7 +8,7 @@ ________________________________________
 **Dataset**
 
 The dataset contains information about layoffs across companies worldwide, including:
-•	Company 
+•	Company  
 •	Industry 
 •	Location 
 •	Total Employees Laid Off 
