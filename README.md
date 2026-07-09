@@ -1,12 +1,12 @@
 # End-to-End-Data-Cleaning-in-MySQL
 SQL data cleaning project using MySQL to prepare a global layoffs dataset for analysis. Demonstrates duplicate removal, data standardization, NULL handling, date conversion, and data transformation using real-world SQL techniques.
 
-📌 Project Overview
+**Project Overview**
 Real-world datasets are rarely clean. Missing values, duplicate records, inconsistent formatting, and incorrect data types can affect the accuracy of any analysis. This project focuses on cleaning a global layoffs dataset using SQL by following a structured data cleaning workflow before performing any exploratory data analysis.
 The objective was to transform the raw dataset into a reliable, analysis-ready dataset by identifying duplicate records, standardizing values, handling missing data, correcting formatting inconsistencies, and removing unnecessary records.
 This project was inspired by Alex The Analyst's SQL Data Cleaning tutorial, and I implemented the complete workflow while understanding the purpose behind each transformation.
 ________________________________________
-📊 Dataset
+**Dataset**
 The dataset contains information about layoffs across companies worldwide, including:
 •	Company 
 •	Industry 
@@ -18,14 +18,14 @@ The dataset contains information about layoffs across companies worldwide, inclu
 •	Country 
 •	Funds Raised (Millions) 
 ________________________________________
-🛠️ Tools Used
+**Tools Used**
 •	MySQL 
 •	SQL 
 •	Window Functions 
 •	Common Table Expressions (CTEs) 
 •	Data Cleaning Techniques 
 ________________________________________
-🔍 Data Cleaning Process
+**Data Cleaning Process**
 1. Created a Staging Table
 To preserve the original dataset, I first created a staging table and performed all cleaning operations on the copied data.
 ________________________________________
@@ -54,7 +54,7 @@ ________________________________________
 Deleted rows where both total layoffs and layoff percentages were unavailable since they provided no analytical value.
 Temporary helper columns created during cleaning were also removed to produce the final cleaned dataset.
 ________________________________________
-💡 SQL Concepts Demonstrated
+**SQL Concepts Demonstrated**
 •	Data Cleaning Workflow 
 •	Window Functions 
 •	ROW_NUMBER() 
@@ -70,7 +70,7 @@ ________________________________________
 •	Data Standardization 
 •	Staging Tables 
 ________________________________________
-📈 Key Learning Outcomes
+**Key Learning Outcomes**
 Through this project, I strengthened my understanding of how SQL is used for real-world data preparation before analysis. Instead of simply removing duplicates or correcting formatting, I learned the importance of preserving raw data, validating records before deletion, handling missing values thoughtfully, and creating consistent datasets that improve the reliability of downstream analytics.
 This project also improved my confidence in using window functions, joins, update operations, and data transformation techniques commonly used by data analysts in production environments.
 
