@@ -58,7 +58,7 @@ Concepts Used:
 
 •	Staging Tables 
 
-- Standardized Data:
+Standardized Data:
 
 Improved data consistency by:
 
