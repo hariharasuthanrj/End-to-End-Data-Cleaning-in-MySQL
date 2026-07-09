@@ -116,5 +116,9 @@ Temporary helper columns created during cleaning were also removed to produce th
 **Key Learning Outcomes:**
 
 Through this project, I strengthened my understanding of how SQL is used for real-world data preparation before analysis. Instead of simply removing duplicates or correcting formatting, I learned the importance of preserving raw data, validating records before deletion, handling missing values thoughtfully, and creating consistent datasets that improve the reliability of downstream analytics.
+
+**Visualisation:**
+<img width="1878" height="950" alt="Screenshot 2026-07-09 173653" src="https://github.com/user-attachments/assets/7e429552-3ef7-4883-9e4d-642d124e4c76" />
+
 This project also improved my confidence in using window functions, joins, update operations, and data transformation techniques commonly used by data analysts in production environments.
 
