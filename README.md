@@ -29,9 +29,13 @@ ________________________________________
 **Tools Used**
 
 •	MySQL 
+
 •	SQL 
+
 •	Window Functions 
+
 •	Common Table Expressions (CTEs) 
+
 •	Data Cleaning Techniques 
 ________________________________________
 **Data Cleaning Process**
@@ -41,19 +45,30 @@ ________________________________________
 2. Removed Duplicate Records
 Used the ROW_NUMBER() window function to identify duplicate rows based on multiple business-related columns.
 Duplicate entries were isolated and removed while ensuring legitimate repeated layoffs were retained.
-Concepts Used
+
+Concepts Used:
+
 •	Window Functions 
+
 •	ROW_NUMBER() 
+
 •	PARTITION BY 
+
 •	Staging Tables 
 ________________________________________
 3. Standardized Data
 Improved data consistency by:
+
 •	Filling missing industry values using self joins 
+
 •	Converting blank values to NULL 
+
 •	Standardizing different industry names 
+
 •	Removing unnecessary punctuation from country names 
+
 •	Formatting date values into SQL DATE format 
+
 •	Converting incorrect data types 
 ________________________________________
 4. Handled Missing Values
@@ -66,18 +81,32 @@ ________________________________________
 **SQL Concepts Demonstrated**
 
 •	Data Cleaning Workflow 
+
 •	Window Functions 
+
 •	ROW_NUMBER() 
+
 •	PARTITION BY 
+
 •	Self Joins 
+
+
 •	UPDATE Statements 
+
 •	DELETE Operations 
+
 •	ALTER TABLE 
+
 •	Data Type Conversion 
+
 •	STR_TO_DATE() 
+
 •	TRIM() 
+
 •	NULL Handling 
+
 •	Data Standardization 
+
 •	Staging Tables 
 ________________________________________
 **Key Learning Outcomes**
