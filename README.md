@@ -39,11 +39,11 @@ The dataset contains information about layoffs across companies worldwide, inclu
 •	Data Cleaning Techniques 
 - - -
 **Data Cleaning Process**
-1. Created a Staging Table:
+- Created a Staging Table:
 
 To preserve the original dataset, I first created a staging table and performed all cleaning operations on the copied data.
 
-2. Removed Duplicate Records:
+- Removed Duplicate Records:
 
 Used the ROW_NUMBER() window function to identify duplicate rows based on multiple business-related columns.
 Duplicate entries were isolated and removed while ensuring legitimate repeated layoffs were retained.
@@ -58,7 +58,7 @@ Concepts Used:
 
 •	Staging Tables 
 
-3. Standardized Data:
+- Standardized Data:
 
 Improved data consistency by:
 
@@ -74,11 +74,11 @@ Improved data consistency by:
 
 •	Converting incorrect data types 
 
-4. Handled Missing Values:
+- Handled Missing Values:
 
 Reviewed NULL values across the dataset and retained meaningful NULLs that could provide useful information during future analysis instead of replacing them with arbitrary values.
 
-5. Removed Unnecessary Records:
+- Removed Unnecessary Records:
 
 Deleted rows where both total layoffs and layoff percentages were unavailable since they provided no analytical value.
 Temporary helper columns created during cleaning were also removed to produce the final cleaned dataset.
