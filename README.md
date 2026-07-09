@@ -4,7 +4,7 @@
 Real-world datasets are rarely clean. Missing values, duplicate records, inconsistent formatting, and incorrect data types can affect the accuracy of any analysis. This project focuses on cleaning a global layoffs dataset using SQL by following a structured data cleaning workflow before performing any exploratory data analysis.
 The objective was to transform the raw dataset into a reliable, analysis-ready dataset by identifying duplicate records, standardizing values, handling missing data, correcting formatting inconsistencies, and removing unnecessary records.
 This project was inspired by Alex The Analyst's SQL Data Cleaning tutorial, and I implemented the complete workflow while understanding the purpose behind each transformation.
-________________________________________
+- - - 
 **Dataset**
 
 The dataset contains information about layoffs across companies worldwide, including:
@@ -39,10 +39,12 @@ ________________________________________
 •	Data Cleaning Techniques 
 ________________________________________
 **Data Cleaning Process**
-1. Created a Staging Table
+1. Created a Staging Table:
+
 To preserve the original dataset, I first created a staging table and performed all cleaning operations on the copied data.
 ________________________________________
-2. Removed Duplicate Records
+2. Removed Duplicate Records:
+
 Used the ROW_NUMBER() window function to identify duplicate rows based on multiple business-related columns.
 Duplicate entries were isolated and removed while ensuring legitimate repeated layoffs were retained.
 
@@ -56,7 +58,8 @@ Concepts Used:
 
 •	Staging Tables 
 ________________________________________
-3. Standardized Data
+3. Standardized Data:
+
 Improved data consistency by:
 
 •	Filling missing industry values using self joins 
@@ -71,10 +74,12 @@ Improved data consistency by:
 
 •	Converting incorrect data types 
 ________________________________________
-4. Handled Missing Values
+4. Handled Missing Values:
+
 Reviewed NULL values across the dataset and retained meaningful NULLs that could provide useful information during future analysis instead of replacing them with arbitrary values.
 ________________________________________
-5. Removed Unnecessary Records
+5. Removed Unnecessary Records:
+
 Deleted rows where both total layoffs and layoff percentages were unavailable since they provided no analytical value.
 Temporary helper columns created during cleaning were also removed to produce the final cleaned dataset.
 ________________________________________
