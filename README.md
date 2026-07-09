@@ -25,7 +25,7 @@ The dataset contains information about layoffs across companies worldwide, inclu
 •	Country 
 
 •	Funds Raised (Millions) 
-________________________________________
+- - -
 **Tools Used**
 
 •	MySQL 
@@ -37,12 +37,12 @@ ________________________________________
 •	Common Table Expressions (CTEs) 
 
 •	Data Cleaning Techniques 
-________________________________________
+- - -
 **Data Cleaning Process**
 1. Created a Staging Table:
 
 To preserve the original dataset, I first created a staging table and performed all cleaning operations on the copied data.
-________________________________________
+
 2. Removed Duplicate Records:
 
 Used the ROW_NUMBER() window function to identify duplicate rows based on multiple business-related columns.
@@ -57,7 +57,7 @@ Concepts Used:
 •	PARTITION BY 
 
 •	Staging Tables 
-________________________________________
+
 3. Standardized Data:
 
 Improved data consistency by:
@@ -73,16 +73,16 @@ Improved data consistency by:
 •	Formatting date values into SQL DATE format 
 
 •	Converting incorrect data types 
-________________________________________
+
 4. Handled Missing Values:
 
 Reviewed NULL values across the dataset and retained meaningful NULLs that could provide useful information during future analysis instead of replacing them with arbitrary values.
-________________________________________
+
 5. Removed Unnecessary Records:
 
 Deleted rows where both total layoffs and layoff percentages were unavailable since they provided no analytical value.
 Temporary helper columns created during cleaning were also removed to produce the final cleaned dataset.
-________________________________________
+- - -
 **SQL Concepts Demonstrated**
 
 •	Data Cleaning Workflow 
@@ -113,8 +113,8 @@ ________________________________________
 •	Data Standardization 
 
 •	Staging Tables 
-________________________________________
-**Key Learning Outcomes**
+- - -
+**Key Learning Outcomes:**
 
 Through this project, I strengthened my understanding of how SQL is used for real-world data preparation before analysis. Instead of simply removing duplicates or correcting formatting, I learned the importance of preserving raw data, validating records before deletion, handling missing values thoughtfully, and creating consistent datasets that improve the reliability of downstream analytics.
 This project also improved my confidence in using window functions, joins, update operations, and data transformation techniques commonly used by data analysts in production environments.
